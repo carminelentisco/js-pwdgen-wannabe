@@ -33,10 +33,10 @@ body {
     height: 400px;
     background-color: #fff;
     border-radius: 15px;
-    filter: drop-shadow(2px 4px 6px black);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    transition: box-shadow .4s, transform 1s;
 }
 
 .password {
@@ -48,6 +48,11 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 30px #000;
 }
 
 /* --- User --- */
