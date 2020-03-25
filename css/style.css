@@ -41,6 +41,7 @@ body {
 
 .password {
     text-align: center;
+    text-transform: lowercase;
 }
 
 .box h1,
